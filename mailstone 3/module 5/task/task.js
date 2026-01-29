@@ -27,7 +27,7 @@
 //     model: "Corolla",
 //     year: 2020
 // };
-// car.passengerCapacity = 10;
+// car.'passenger capacity' = '10';
 
 // console.log(car)
 
@@ -39,9 +39,5 @@ let student = {
     city: 'Gaibandha',
     isStudent: true
 }
- let keys = Object.keys(student)
- let values = Object.values(student)
- let sum = keys+ ' - '+values
-console.log(sum)
-
+ 
 
