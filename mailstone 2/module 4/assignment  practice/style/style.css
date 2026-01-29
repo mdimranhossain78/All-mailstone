@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.display-flex{
+    display: flex;
+}
+.banner{
+    width: 75%;
+    margin: auto;
+    background-image: url(../assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rebeccapurple;
+   min-height: 500px;
+    color: aliceblue;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.banner > div{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.banner .rounded{
+
+   position: relative;
+   
+}
+.banner .rounded .rounded-shape{
+    width: 170px;
+    height: auto;
+   
+}
+.banner .rounded .mic{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left:42%;
+    transform: translate(-50% -50%);
+    animation: round 2s infinite;
+    
+}
+.banner .rounded span{
+    width: 75px;
+    background-color: aquamarine;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 16px;
+    display: inline-block;
+    position:absolute;
+    top: 0;
+    left: 56%;
+}
+
+@keyframes roun{
+    0%{
+        transform: rotate(0px);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}

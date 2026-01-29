@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        .nav{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .nav a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            
+        }
+        .login-form input{
+            margin-top: 20px;
+           
+
+        }
+        .login-container{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <div>
+                <a href="">Home</a>
+            <a href="">profile</a>
+            <a href="">about</a>
+            <a href="">Blog</a>
+            </div>
+            <a href="">Login</a>
+
+        </div>
+
+        <div class="login-container">
+            <form class="login-form">
+                <h3>pless login</h3>
+                <input type="email" required>
+                <input type="password" required>
+                <input type="submit" value="Login">
+                
+            </form>
+        </div>
+    </nav>
+</body>
+</html>

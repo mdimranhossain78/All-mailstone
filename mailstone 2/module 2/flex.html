@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 30px;
+        }
+        .box{
+            background-color: rgb(55, 60, 65);
+            color: aliceblue;
+            padding: 20px;
+            border-radius: 10px;
+            
+
+
+        }
+        .item{
+            width: 100px;
+            padding: 10px;
+            background-color: aquamarine;
+        }
+        .box-container{
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        
+     @media screen and (max-width: 576px) {
+      .container{
+            flex-direction: column;
+        }
+        .item{
+            width: 100%;
+           
+        }
+     } 
+        
+    </style>
+</head>
+<body>
+    <h1>Lets Explor flex</h1>
+  <div class="container">
+    <div class="box">
+        <h2>box-1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rerum sed consequuntur veniam esse sequi? Corrupti voluptatem eos facere nam natus eligendi cupiditate ratione pariatur voluptatum! Quam magnam debitis velit, earum doloribus maxime molestiae amet sit dolor. Nisi voluptatem rerum animi? Tempora eligendi voluptas illum suscipit mollitia esse iste odio cupiditate deserunt recusandae deleniti quibusdam porro, quod consequatur, repudiandae odit?</p>
+    </div>
+    <div class="box">
+        <h2>box-1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rerum sed consequuntur veniam esse sequi? Corrupti voluptatem eos facere nam natus eligendi cupiditate ratione pariatur voluptatum! Quam magnam debitis velit, earum doloribus maxime molestiae amet sit dolor. Nisi voluptatem rerum animi? Tempora eligendi voluptas illum suscipit mollitia esse iste odio cupiditate deserunt recusandae deleniti quibusdam porro, quod consequatur, repudiandae odit?</p>
+    </div>
+  </div>
+  <div class="box-container">
+    <div class="item">box-1</div>
+    <div class="item">box-2</div>
+    <div class="item">box-3</div>
+    <div class="item">box-4</div>
+    <div class="item">box-5</div>
+    <div class="item">box-6</div>
+    <div class="item">box-7</div>
+    <div class="item">box-8</div>
+    <div class="item">box-9</div>
+    <div class="item">box-10</div>
+    <div class="item">box-11</div>
+    <div class="item">box-12</div>
+    <div class="item">box-13</div>
+    <div class="item">box-14</div>
+    <div class="item">box-15</div>
+    <div class="item">box-16</div>
+    <div class="item">box-17</div>
+    <div class="item">box-18</div>
+    <div class="item">box-19</div>
+    <div class="item">box-20</div>
+  </div>
+</body>
+</html>

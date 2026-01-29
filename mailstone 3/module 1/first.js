@@ -1,0 +1,10 @@
+// let a, b, c;
+// a = 5;
+// b = 10;
+// c = b + a;
+// console.log(c);
+var money= 105;
+var aplle = 30;
+var orange = 20;
+var total = a + b;
+console.log(money - total);
