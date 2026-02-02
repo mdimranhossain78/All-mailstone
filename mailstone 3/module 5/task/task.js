@@ -22,22 +22,31 @@
 
 //task 3:
 
-// const car = {
-//     make: "Toyota",
-//     model: "Corolla",
-//     year: 2020
-// };
-// car.'passenger capacity' = '10';
+const car = {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2020
+};
+car['passenger capacity'] = 5
 
-// console.log(car)
+console.log(car)
 
 //task 4:
+/**
+ * 1.frist i have make a object becos objct to array convert.
+ * 
+ */
 
-let student = {
-    name: 'Ariana Grande',
-    age: 21,
-    city: 'Gaibandha',
-    isStudent: true
-}
+// let student = {
+//     name: 'Ariana Grande',
+//     age: 21,
+//     city: 'Gaibandha',
+//     isStudent: true
+// }
  
 
+// const keys = Object.keys(student)
+ 
+// for(const key of keys){
+//     console.log('kye:',key, ' |', typeof student[key])
+// }

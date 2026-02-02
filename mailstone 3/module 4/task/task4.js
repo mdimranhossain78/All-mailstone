@@ -10,7 +10,9 @@
 //     n++;
    
 // }
-
+/**
+ * task 5
+ */
 // let n = 25;
 // while(n >= 15){
 //     console.log(n)
@@ -23,7 +25,7 @@
 
    let num = 1;
    let sum = 0;
-   while(num < 100){
+   while(true){
         sum +=num;
         num++;
         if(sum >= 100){

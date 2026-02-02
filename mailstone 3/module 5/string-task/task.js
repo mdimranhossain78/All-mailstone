@@ -12,7 +12,7 @@
 
 // task 2:
 
-//  let str = 'you are vary good developer in programming hero' 
+//  let str = 'yoU are vary good developer In programmIng hero' 
 
 // let result = str.includes('a','i','o','u','e')
 // console.log(result)
@@ -53,7 +53,9 @@
 
 //task 4:
 
-let rep = 'if the given string has X, replace it by Y.'
+// let rep = 'if the given string has X, replace it by Y.'
 
-console.log(rep.replace('X','x'))
-console.log(rep.replace('Y', 'y'))
+// console.log(rep.replace('X','x'))
+// console.log(rep.replace('Y', 'y'))
+
+

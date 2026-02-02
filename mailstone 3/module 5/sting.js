@@ -16,3 +16,4 @@ console.log(captal[0])
 
 captal[1] = 'q'
 console.log(captal)
+

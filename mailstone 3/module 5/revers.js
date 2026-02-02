@@ -25,8 +25,37 @@ const sentens = 'i am learnig web dev'
 
 //3 ways:
 
-const revers = sentens.split(' ').reverse().join(" ")
+// const revers = sentens.split(' ').reverse().join(" ")
 
 
 
-console.log(revers)
+// console.log(revers)
+//just pratice:
+
+let str = 'i am a student'
+
+// let str_new = str.split(" ")
+// console.log(str_new)
+
+// for(let x in str_new){
+
+//     str_new[x]= str_new[x][0].toUpperCase() + str_new[x].slice(1,str_new.length)
+// }
+
+// console.log(str_new)
+
+// let s = '';
+
+// for(let y in str_new){
+//     s = s + str_new[y] + ' '
+// }
+// console.log(s.trim())
+
+
+let array = str.split(' ')
+console.log(array)
+
+let capitalize = array.map(array =>array[0].toUpperCase() + array.slice(1))
+
+let letter = capitalize.join(' ')
+console.log(letter)
