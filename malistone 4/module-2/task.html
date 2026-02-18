@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Dom</title>
+</head>
+<body>
+    <!-- This is my smple task v - 2 -->
+     
+    <p>This is a pragrph</p>
+    <p>Hello Dom</p>
+    <p>Dom is document object model</p>
+
+    <script>
+        const allPragraphs = document.getElementsByTagName('p');
+        for(const pragraph of allPragraphs){
+            console.log(pragraph.innerText);
+        }
+    </script>
+</body>
+</html>

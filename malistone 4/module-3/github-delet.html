@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>github delete</title>
+</head>
+<body>
+    <h1 id="hed">My secret info</h1>
+    <input id="input-delete" placeholder="type now" type="text">
+    <button id="btn"disabled>Delete</button>
+
+    <script>
+        document.getElementById('input-delete')
+        .addEventListener('keyup', function(even){
+            const text = even.target.value
+            const btnDelete = document.getElementById('btn');
+            const heding = document.getElementById('hed');
+            if(text === 'delete'){
+                // console.log('delete type')
+               btnDelete.removeAttribute('disabled')
+               heding.style.display='none'
+
+            
+
+            }
+            else{
+                console.log('somthing else')
+                btnDelete.setAttribute('disabled', true)
+                heding.style.display='block'
+            }
+         
+        })
+
+    </script>
+</body>
+</html>

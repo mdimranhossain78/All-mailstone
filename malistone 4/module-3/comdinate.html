@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini project</title>
+</head>
+<body>
+    <h1 id="head">This is heading</h1>
+    <button id="btn">Click</button>
+    <br>
+    <br>
+    <!-- second mini project -->
+    <p id="name">no name</p>
+    <input id="input-name" type="text">
+    <button id="updete-btn">Updete</button>
+
+
+    <script>
+        document.getElementById('btn')
+        .addEventListener('click', function(){
+            const headElement = document.getElementById('head');
+            headElement.innerText='I am Tazmul Hossain'
+        })
+
+        //stape1: button to addEventListenr
+        document.getElementById('updete-btn')
+        .addEventListener('click', function(){
+            //stape2: input ka anlam and inpunt text dakhar jonno value use korci
+           const inputName = document.getElementById('input-name')
+           name = inputName.value;
+
+           //stape3: p tag ar man input ar satha jog korsi;
+
+           const namep = document.getElementById('name')
+           namep.innerText = name
+
+        })
+    </script>
+</body>
+</html>

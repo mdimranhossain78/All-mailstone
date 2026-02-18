@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child List</title>
+</head>
+<body>
+    <section id="football-container" class="players">
+        <h1>football player</h1>
+        <ul>
+            <li>jamal</li>
+            <li>hamja</li>
+            <li>tarak</li>
+            <li>morsalin</li>
+            <li>gko</li>
+            <li>marma</li>
+        </ul>
+    </section>
+    <section  id="cricket-container">
+        <h1>cricket players</h1>
+        <ul>
+            <li>hassan</li>
+            <li>musfic</li>
+            <li>mahmudullah</li>
+            <li>mortaza</li>
+            <li>mostafizur</li>
+        </ul>
+    </section>
+    <script>
+
+        const players = document.getElementById('cricket-container').childNodes[3].childNodes[1].parentNode.parentNode.parentNode
+        console.log(players)
+        
+    </script>
+</body>
+</html>

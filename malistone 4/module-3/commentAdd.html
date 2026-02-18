@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>commend add program</title>
+    <style>
+        .comment{
+            background-color: aqua;
+            border: 2px solid blue;
+            padding: 20px;
+            border-radius: 10px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Comment box</h1>
+    <section>
+        <div id="comment-container">
+            <p class="comment">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum minima nihil dolor numquam, maiores expedita? Ipsa quam et nobis quidem!</p>
+            <p class="comment">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum minima nihil dolor numquam, maiores expedita? Ipsa quam et nobis quidem!</p>
+            <p class="comment">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum minima nihil dolor numquam, maiores expedita? Ipsa quam et nobis quidem!</p>
+        </div>
+        <textarea  name="" id="comment-text" cols="30" rows="5"></textarea>
+        <br>
+        <button id="btn">command post</button>
+    </section>
+    <script>
+    //stape 1: addEvenLister boutto;
+    document.getElementById('btn')
+    .addEventListener('click', function(){
+    //stape 2: taxtarea niy asbo and comment likhbo;
+    const commetnText = document.getElementById('comment-text')
+    const newComment = commetnText.value;
+    //stape 3: comment rakhbo;
+    const commentContainer = document.getElementById('comment-container')
+    console.log(commentContainer)
+   //stape 4: creat element
+   const commentElement = document.createElement('p')
+   commentElement.classList.add('comment')
+   commentElement.innerText = newComment
+   //stape 5: append the new p tag to prant node;
+
+        commentContainer.appendChild(commentElement)
+    //stape 6: lakhar por text area khali kora dey;
+        commetnText.value = ''
+
+
+    })
+    </script>
+</body>
+</html>

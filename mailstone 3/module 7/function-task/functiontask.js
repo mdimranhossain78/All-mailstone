@@ -72,12 +72,3 @@
 // const str = '10101100110'
 // console.log(count_zero(str));
 // 
-const a = 3;
-const b = 5;
-
-let tam = a;
-
-a = b;
-b = tam
-console.log(a,b)
-

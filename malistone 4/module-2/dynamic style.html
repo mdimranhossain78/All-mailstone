@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Style</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        .section-card{
+            background-color: aquamarine;
+            margin-bottom: 10px;
+            padding: 20px;
+            border: 5px solid green;
+            border-radius: 10px;
+           
+
+        }
+    </style>
+</head>
+<body>
+    <section id="football-container" class="players">
+        <h1>football player</h1>
+        <ul>
+            <li>jamal</li>
+            <li>hamja</li>
+            <li>tarak</li>
+            <li>morsalin</li>
+            <li>gko</li>
+            <li>marma</li>
+        </ul>
+    </section>
+    <section  id="cricket-container">
+        <h1>cricket players</h1>
+        <ul>
+            <li>hassan</li>
+            <li>musfic</li>
+            <li>mahmudullah</li>
+            <li>mortaza</li>
+            <li>mostafizur</li>
+        </ul>
+    </section>
+    <script>
+        const playerElement = document.getElementsByTagName('section')
+        // console.log(playerElement)
+        // for(const player of playerElement){
+        //     player.style.backgroundColor='aqua';
+        //     player.style.border='5px solid green';
+        //     player.style.marginBottom = '10px';
+        //     player.style.padding = '10px';
+        //     player.style.borderRadius = '15px';
+
+            
+        // }
+        for(const players of playerElement){
+            players.classList.add('section-card')
+        }
+    </script>
+</body>
+</html>
