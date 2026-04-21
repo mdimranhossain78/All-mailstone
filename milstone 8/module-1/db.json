@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wire Mouse",
+      "price": 1500,
+      "category": "Electronics",
+      "brand": "Logitech",
+      "stock": 25,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Keyboard",
+      "price": 3500,
+      "category": "Electronics",
+      "brand": "Redragon",
+      "stock": 15,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Headphones",
+      "price": 2800,
+      "category": "Audio",
+      "brand": "Sony",
+      "stock": 10,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "Smart Watch",
+      "price": 6000,
+      "category": "Wearable",
+      "brand": "Xiaomi",
+      "stock": 8,
+      "rating": 4.3
+    },
+    {
+      "id": 5,
+      "name": "Gaming Chair",
+      "price": 15000,
+      "category": "Furniture",
+      "brand": "Havit",
+      "stock": 5,
+      "rating": 4.4
+    }
+  ]
+}
